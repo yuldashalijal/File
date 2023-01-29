@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- <script src="http://kit.fontawesome.com/7c8801c017.js"></script> -->
+
+    <link rel="stylesheet" href="./main.css">
+    
+    <title>Music player javascript</title>
+</head>
+<body>
+
+    <audio src="" id="audio"></audio>
+
+    <div class="music-player">
+        <h1 class="music-name">song one</h1>
+        <p class="artist-name">artist</p>
+
+        <div class="disk"></div>
+
+        <div class="song-slider">
+            <input type="range" value="0" class="seek-bar">
+            <span class="current-time">00:00</span>
+            <span class="song-duration">00:00</span>
+        </div>
+
+        <div class="controls">
+    
+            <i class='bx bxs-chevron-left-circle'></i>
+            <!-- <button class="btn backward-btn"><img src="" alt="..."></button> -->
+            <button class="play-btn pause">
+                <span></span>
+                <span></span>
+            </button>
+            <!-- <button class="btn forward-btn"><img src="" alt="..."></button> -->
+            <i class='bx bxs-chevron-right-circle'></i>
+        </div>
+    </div>
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
